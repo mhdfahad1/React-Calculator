@@ -30,8 +30,8 @@ function App() {
           <div><input placeholder='0' value={value} id='inputbox' type="text" readOnly /></div>
           <div className='firstrow'>
             <div onClick={() => clearInput()} className='clear  border'>c</div>
-            <div onClick={()=>removeLast()} className='buttons border'><i className="fa-solid fa-delete-left" style={{ color: 'black' }}></i></div>
-            <div onClick={() => display("%")} className='buttons border'>%</div>
+            <div onClick={()=>removeLast()} className='backButton border'><i className="fa-solid fa-delete-left" style={{ color: 'black' }}></i></div>
+            <div onClick={() => display("%")} className='modulus border'>%</div>
             <div onClick={() => display("+")} className='plus border'><i className="fa-solid fa-plus" style={{color:'black'}}></i></div>
           </div>
 
