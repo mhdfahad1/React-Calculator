@@ -1,173 +1,198 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 
 }
-#calculator{
+
+#calculator {
     width: 350px;
     height: 500px;
     margin-top: 70px;
     border-radius: 10px;
 }
-#inputbox{
+
+#inputbox {
     width: 100%;
     height: 100px;
     border: none;
     font-size: 40px;
-}
-.buttons{
-    border: 1px;
-    width: 100px;
-    font-size: 30px;
-    color: rgb(17, 17, 17);
-    height: 80px;
-    padding:18px 0 0 30px;
-    background-color: #f2f2f2;
-    cursor: pointer;
-}
-.backButton{
-    border: 1px;
-    width: 100px;
-    font-size: 30px;
-    color: rgb(17, 17, 17);
-    height: 80px;
-    padding:18px 0 0 30px;
-    background-color: #f2f2f2;
-    cursor: pointer;
-}
-.backButton:hover{
-    filter: brightness(60%);
-    transition: 0.3s;   
-}
-.modulus{
-    border: 1px;
-    width: 100px;
-    font-size: 30px;
-    color: rgb(17, 17, 17);
-    height: 80px;
-    padding:18px 0 0 30px;
-    background-color: #f2f2f2;
-    cursor: pointer;
-}
-.modulus:hover{
-    filter: brightness(60%);
-    transition: 0.3s;   
-}
-.buttons:hover{
-    filter: brightness(60%);
-    font-size: 25px;
-    transition: 0.3s;
-    /* transform: 0.2s; */
-   
-}
-.buttons1:hover{
-    filter: brightness(60%);
-    font-size: 25px;
-    transition: 0.3s;
-    /* transform: 0.2s; */
-   
-}
-.clear:hover{
-    filter: brightness(60%);
-    transition: 0.3s;   
-}
-.plus:hover{
-    filter: brightness(60%);
-    transition: 0.3s;   
-}
-.minus:hover{
-    filter: brightness(60%);
-    transition: 0.3s;   
-}
-.multiply:hover{
-    filter: brightness(60%);
-    transition: 0.3s;   
-}
-.division:hover{
-    filter: brightness(60%);
-    transition: 0.3s;   
-}
-.equalto:hover{
-    filter: brightness(60%);
-    transition: 0.3s;   
-}
-.clear:hover{
-    filter: brightness(60%);
-    transition: 0.3s;   
+    text-align: right;
 }
 
-.clear{
+.buttons {
+    border: 1px;
+    width: 100px;
+    font-size: 30px;
+    color: rgb(17, 17, 17);
+    height: 80px;
+    padding: 18px 0 0 30px;
+    background-color: #f2f2f2;
+    cursor: pointer;
+}
+
+.backButton {
+    border: 1px;
+    width: 100px;
+    font-size: 30px;
+    color: rgb(17, 17, 17);
+    height: 80px;
+    padding: 18px 0 0 30px;
+    background-color: #f2f2f2;
+    cursor: pointer;
+}
+
+.backButton:hover {
+    filter: brightness(60%);
+    transition: 0.3s;
+}
+
+.modulus {
+    border: 1px;
+    width: 100px;
+    font-size: 30px;
+    color: rgb(17, 17, 17);
+    height: 80px;
+    padding: 18px 0 0 30px;
+    background-color: #f2f2f2;
+    cursor: pointer;
+}
+
+.modulus:hover {
+    filter: brightness(60%);
+    transition: 0.3s;
+}
+
+.buttons:hover {
+    filter: brightness(60%);
+    font-size: 25px;
+    transition: 0.3s;
+    /* transform: 0.2s; */
+
+}
+
+.buttons1:hover {
+    filter: brightness(60%);
+    font-size: 25px;
+    transition: 0.3s;
+    /* transform: 0.2s; */
+
+}
+
+.clear:hover {
+    filter: brightness(60%);
+    transition: 0.3s;
+}
+
+.plus:hover {
+    filter: brightness(60%);
+    transition: 0.3s;
+}
+
+.minus:hover {
+    filter: brightness(60%);
+    transition: 0.3s;
+}
+
+.multiply:hover {
+    filter: brightness(60%);
+    transition: 0.3s;
+}
+
+.division:hover {
+    filter: brightness(60%);
+    transition: 0.3s;
+}
+
+.equalto:hover {
+    filter: brightness(60%);
+    transition: 0.3s;
+}
+
+.clear:hover {
+    filter: brightness(60%);
+    transition: 0.3s;
+}
+
+.clear {
     border: 1px;
     width: 100px;
     font-size: 35px;
     color: rgb(248, 2, 2);
     height: 80px;
-    padding:13px 0 0 30px;
+    padding: 13px 0 0 30px;
     background-color: #f2f2f2;
     cursor: pointer;
 }
-.plus{
+
+.plus {
     border: 1px;
     width: 100px;
     font-size: 30px;
     color: rgb(17, 17, 17);
     height: 80px;
-    padding:18px 0 0 30px;
+    padding: 18px 0 0 30px;
     background-color: #c2efef;
     cursor: pointer;
 }
-.minus{
+
+.minus {
     border: 1px;
     width: 100px;
     font-size: 30px;
     color: rgb(17, 17, 17);
     height: 80px;
-    padding:18px 0 0 30px;
+    padding: 18px 0 0 30px;
     background-color: #c2efef;
     cursor: pointer;
 }
-.multiply{
+
+.multiply {
     border: 1px;
     width: 100px;
     font-size: 30px;
     color: rgb(17, 17, 17);
     height: 80px;
-    padding:18px 0 0 30px;
+    padding: 18px 0 0 30px;
     background-color: #c2efef;
     cursor: pointer;
 }
-.division{
+
+.division {
     border: 1px;
     width: 100px;
     font-size: 30px;
     font-weight: 700;
     color: rgb(17, 17, 17);
     height: 80px;
-    padding:18px 0 0 30px;
+    padding: 18px 0 0 30px;
     background-color: #c2efef;
     cursor: pointer;
 }
-.firstrow{
+
+.firstrow {
     display: flex;
 }
-.equalto{
+
+.equalto {
     cursor: pointer;
     height: 80px;
-    background-color:#29a3a3;
+    background-color: #29a3a3;
     width: 200px;
     font-size: 60px;
     color: rgb(249, 246, 246);
-    padding:0 0 0 70px;
+    padding: 0 0 0 70px;
 
 }
-.lastrow{
+
+.lastrow {
     display: flex;
     background-color: black;
 }
-.buttons1{
+
+.buttons1 {
     width: 101px;
-    padding:18px 0 0 30px;
+    padding: 18px 0 0 30px;
     font-size: 30px;
     height: 80px;
     background-color: #f2f2f2;
@@ -175,88 +200,97 @@
     cursor: pointer;
 }
 
-@media(max-width:600px){
-    #calculator{
+@media(max-width:600px) {
+    #calculator {
         width: 350px;
         height: 400px;
         margin-top: 100px;
         background-color: black;
         border-radius: 10px;
     }
-    #inputbox{
-        
+
+    #inputbox {
+
         width: 100%;
         height: 249px;
         border: none;
         font-size: 40px;
     }
-    .buttons{
+
+    .buttons {
         border: 1px;
         width: 110px;
         font-size: 30px;
         color: rgb(17, 17, 17);
         height: 80px;
-        padding:18px 0 0 30px;
+        padding: 18px 0 0 30px;
         background-color: #f2f2f2;
         cursor: pointer;
     }
-    .backButton{
+
+    .backButton {
         border: 1px;
         width: 110px;
         font-size: 30px;
         color: rgb(17, 17, 17);
         height: 80px;
-        padding:18px 0 0 30px;
+        padding: 18px 0 0 30px;
         background-color: #f2f2f2;
         cursor: pointer;
     }
-    .modulus{
+
+    .modulus {
         border: 1px;
         width: 110px;
         font-size: 30px;
         color: rgb(17, 17, 17);
         height: 80px;
-        padding:18px 0 0 30px;
+        padding: 18px 0 0 30px;
         background-color: #f2f2f2;
         cursor: pointer;
     }
-    .clear{
+
+    .clear {
         border: 1px;
         width: 110px;
         font-size: 35px;
         color: rgb(17, 17, 17);
         height: 80px;
-        padding:13px 0 0 30px;
+        padding: 13px 0 0 30px;
         background-color: #f2f2f2;
         cursor: pointer;
     }
-    .plus{
+
+    .plus {
         border: 1px;
         width: 100px;
         font-size: 30px;
         color: rgb(17, 17, 17);
         height: 80px;
-        padding:18px 0 0 30px;
+        padding: 18px 0 0 30px;
         background-color: #c2efef;
         cursor: pointer;
     }
-    .equalto{
+
+    .equalto {
         cursor: pointer;
         height: 80px;
-        background-color:#29a3a3;
+        background-color: #29a3a3;
         width: 195px;
         font-size: 60px;
         color: rgb(249, 246, 246);
-        padding:0 0 0px 90px;
-    
-    }.buttons1{
+        padding: 0 0 0px 90px;
+
+    }
+
+    .buttons1 {
         width: 106px;
-        padding:18px 0 0 30px;
+        padding: 18px 0 0 30px;
         font-size: 30px;
         height: 80px;
         background-color: #f2f2f2;
         color: rgb(17, 17, 17);
         cursor: pointer;
     }
-   
+
 }

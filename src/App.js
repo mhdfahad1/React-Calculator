@@ -1,19 +1,20 @@
 import { useState } from 'react';
 import './App.css';
+import * as math from 'mathjs';
 
 function App() {
   let [value, setvalue] = useState("")
 
   const display = (num) => {
-    setvalue(value += num)
+    setvalue(value + num)
   }
   const clearInput = () => {
     setvalue("")
   }
   const Calculate = () => {
     try {
-      const result = parseInt(value)
-      setvalue(eval(result))
+      const result = math.evaluate(value)
+      setvalue(result)
     } catch (error) {
       console.log(error);
       setvalue("SYNTAX ERROR!")
